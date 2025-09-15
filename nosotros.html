@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocenos</title>
+    <link rel="icon" type="image/png" href="./IMG/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/estilosN.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="sticky-top bg-dark">
+        <!-- Logo -->
+        <div class="text-center py-2">
+            <a href="./index.html">
+                <img id="imgLogo2" src="./IMG/logo.png" alt="Logo"
+                    class="animate__animated animate__pulse animate__infinite">
+            </a>
+        </div>
+
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-sm navbar-custom navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Lo que ofrecemos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./servicios.html">Servicios</a></li>
+                                <li><a class="dropdown-item" href="./servicios.html">Portafolio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <aside class="barraSocialAside d-none d-md-flex flex-column align-items-center">
+        <a href="https://wa.me/573206542147" target="_blank" class="botonRed"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/1ZH5iJ5Gaf/?mibextid=wwXIfr" target="_blank" class="botonRed"><i
+                class="bi bi-facebook"></i></a>
+        <a href="https://github.com/SophyaCas" target="_blank" class="botonRed"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/sophya_cq888?igsh=MW01Y3JxaTBhOTgxYg%3D%3D&utm_source=qr" target="_blank"
+            class="botonRed"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@sophya_8812?_t=ZS-8zgJjYcGWXp&_r=1" target="_blank" class="botonRed"><i
+                class="bi bi-tiktok"></i></a>
+        <a href="https://www.linkedin.com/login/es" target="_blank" class="botonRed"><i class="bi bi-linkedin"></i></a>
+    </aside>
+
+    <main class="container my-5">
+
+
+        <div id="carruselPrincipal" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="overlay"></div>
+                    <img src="./IMG/innovacionTecNos.webp" class="d-block w-100 imagenCarrusel" alt="Imagen 1">
+                    <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInDown">
+                        <h2 class="tituloCarrusel">Innovación Tecnológica</h2>
+                        <p class="textoCarrusel">Más de 8 años transformando ideas en soluciones de vanguardia.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./IMG/innovacion-tecnologicaNosDef.webp" class="d-block w-100 imagenCarrusel"
+                        alt="Imagen 2">
+                    <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+                        <h2 class="tituloCarrusel">Desarrollo Personalizado</h2>
+                        <p class="textoCarrusel">Creamos software adaptado a tus necesidades.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./IMG/transformacionDigitalNos.webp" class="d-block w-100 imagenCarrusel" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block animate__animated animate__zoomIn">
+                        <h2 class="tituloCarrusel">Transformación Digital</h2>
+                        <p class="textoCarrusel">Potenciamos tu negocio con tecnología.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPrincipal"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPrincipal"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <section class="row align-items-center py-5">
+            <div class="col-lg-6 text-white animate__animated animate__fadeInLeft">
+                <h2 class="display-4 fw-bold mb-4">
+                    <i class="bi bi-globe2 iconoTitulo"></i> Sobre Nosotros
+                </h2>
+                <p class="lead mb-4">
+                    Conoce la historia, misión y el equipo que hace posible la innovación tecnológica en
+                    <span class="text-primary fw-bold">CoderHub.run</span>.
+                </p>
+                <a href="./contactanos.html" target="_blank" class="btn btn-primary btn-lg">
+                    <i class="bi bi-envelope-fill"></i> Contáctanos
+                </a>
+            </div>
+
+            <!-- Imagen Derecha -->
+            <div class="col-lg-6 text-center animate__animated animate__fadeInRight">
+                <img src="./IMG/nosotrosConocenos.png" alt="Equipo CoderHub" class="img-fluid rounded sombraImagen">
+            </div>
+        </section>
+
+        <!-- Sección Nuestra Historia -->
+        <section class="row align-items-center bg-dark text-white rounded-4 p-5 mt-5">
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                <h3 class="fw-bold mb-3  textoHis">Nuestra Historia</h3>
+                <p>
+                    Fundada en 2016, <strong class="text-primary">CoderHub.run</strong> nació de la visión de crear
+                    soluciones tecnológicas que realmente impacten en el crecimiento de las empresas.
+                    Comenzamos como un pequeño equipo de desarrolladores apasionados y hemos crecido hasta
+                    convertirnos
+                    en una referencia en desarrollo de software personalizado.
+                </p>
+                <p>
+                    Hoy, con más de <span class="text-primary fw-bold">500 proyectos exitosos</span> y clientes
+                    satisfechos en toda Latinoamérica, continuamos innovando y adaptándonos a las últimas tendencias
+                    tecnológicas para ofrecer siempre las mejores soluciones.
+                </p>
+            </div>
+
+            <!-- Imagen Derecha -->
+            <div class="col-lg-6 text-center animate__animated animate__zoomIn">
+                <img src="./IMG/historiacoder.png" alt="Nuestra Historia" class="img-fluid rounded sobresaleImagen">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Sección Nuestra Esencia -->
+    <article class="py-5 seccionEsencia position-relative">
+        <div class="container">
+            <h2 class="textoEsencia text-center text-white mb-5 animate__animated animate__fadeInDown">
+                Nuestra Esencia
+            </h2>
+            <div class="row g-4">
+
+                <!-- Misión -->
+                <div class="col-md-4">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInLeft">
+                        <div class="card-body p-4">
+                            <div class="iconoCirculo mb-3 bg-primary text-white">
+                                <i class="bi bi-flag-fill"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Misión</h3>
+                            <p class="card-text">
+                                Transformar ideas innovadoras en soluciones tecnológicas robustas
+                                que impulsen el crecimiento y éxito de nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visión -->
+                <div class="col-md-4">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInUp">
+                        <div class="card-body p-4">
+                            <div class="iconoCirculo mb-3 bg-info text-dark">
+                                <i class="bi bi-binoculars-fill"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Visión</h3>
+                            <p class="card-text">
+                                Ser la empresa líder en desarrollo de software personalizado en Latinoamérica,
+                                reconocida por nuestra innovación y excelencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Valores -->
+                <div class="col-md-4">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInRight">
+                        <div class="card-body p-4">
+                            <div class="iconoCirculo mb-3 bg-danger text-white">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Valores</h3>
+                            <p class="card-text">
+                                Innovación, calidad, transparencia y compromiso con la satisfacción del cliente son
+                                los pilares de nuestro trabajo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+    <!-- Sección Nuestro Equipo -->
+    <article class="py-5 seccionEquipo position-relative">
+        <div class="container">
+            <h2 class="textoEsencia text-center text-white mb-5 animate__animated animate__fadeInDown">
+                Nuestro Equipo
+            </h2>
+            <p class="text-center text-white mb-5">
+                Conoce a los profesionales que hacen posible cada proyecto
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <!-- Perfil 1 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInLeft">
+                        <img src="./IMG/perfil2.jpg" class="card-img-top fotoGiratoria" alt="Carlos Mendoza">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Carlos Mendoza</h5>
+                            <p class="text-primary fw-bold">CEO & Fundador</p>
+                            <p class="card-text">
+                                Ingeniero en Sistemas con 10+ años de experiencia en desarrollo de software y liderazgo
+                                de equipos tecnológicos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Perfil 2 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInUp">
+                        <img src="./IMG/Perfil1.jpg" class="card-img-top fotoGiratoria" alt="Ana Rodríguez">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ana Rodríguez</h5>
+                            <p class="text-primary fw-bold">CTO & Arquitecta de Software</p>
+                            <p class="card-text">
+                                Especialista en arquitecturas escalables y tecnologías cloud, con certificaciones en AWS
+                                y Azure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Perfil 3 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInRight">
+                        <img src="./IMG/perfil3.jpg" class="card-img-top fotoGiratoria" alt="Miguel Torres">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Miguel Torres</h5>
+                            <p class="text-primary fw-bold">Director de UX/UI</p>
+                            <p class="card-text">
+                                Diseñador con enfoque en experiencia de usuario, especializado en interfaces intuitivas
+                                y accesibles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Perfil 4 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInLeft">
+                        <img src="./IMG/perfil4.jpg" class="card-img-top fotoGiratoria" alt="Laura Jiménez">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Laura Jiménez</h5>
+                            <p class="text-primary fw-bold">Gerente de Proyectos</p>
+                            <p class="card-text"> Coordinadora de equipos multidisciplinarios, asegurando la entrega
+                                puntual y eficiente de cada proyecto. </p>
+                        </div>
+                    </div>
+                </div> <!-- Perfil 5 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInUp">
+                        <img src="./IMG/perfil5.jpg" class="card-img-top fotoGiratoria" alt="Javier Salazar">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Javier Salazar</h5>
+                            <p class="text-primary fw-bold">Ingeniero de Backend</p>
+                            <p class="card-text"> Experto en desarrollo de APIs y bases de datos, garantizando sistemas
+                                robustos y escalables. </p>
+                        </div>
+                    </div>
+                </div> <!-- Perfil 6 -->
+                <div class="col">
+                    <div class="card tarjetaEsencia text-center h-100 shadow-lg animate__animated animate__fadeInRight">
+                        <img src="./IMG/perfil6.jpg" class="card-img-top fotoGiratoria" alt="Sofía Morales">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sofía Morales</h5>
+                            <p class="text-primary fw-bold">Especialista en QA</p>
+                            <p class="card-text"> Encargada de pruebas y aseguramiento de calidad, garantizando software
+                                libre de errores y óptimo para el usuario final. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </article>
+    <footer class="piePagina2 text-light pt-5 pb-3">
+        <div class="contenedor container">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-4 text-center text-md-start mb-4 mb-md-0">
+                    <img src="./IMG/logo.png" alt="Logo CodeHub"
+                        class="logoEmpresa img-fluid mb-3 animate__animated animate__pulse animate__infinite">
+                    <!-- Spinners decorativos -->
+                    <div class="decoracionLogo">
+                        <div class="spinner-grow text-primary spinner-sm"></div>
+                        <div class="spinner-grow text-success spinner-sm"></div>
+                        <div class="spinner-grow text-danger spinner-sm"></div>
+                        <div class="spinner-grow text-warning spinner-sm"></div>
+                        <div class="spinner-grow text-info spinner-sm"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row g-4"> <!-- Área Comercial -->
+                        <div class="col-12 col-lg-6">
+                            <div class="tarjetaPie2 p-3 rounded h-100 shadow-sm animate__animated animate__fadeInUp">
+                                <h5 class="tituloSeccion fw-bold"> <i
+                                        class="bi bi-telephone-fill me-2 text-primary"></i>Área Comercial </h5>
+                                <ul class="listaContactos list-unstyled small">
+                                    <li><i class="bi bi-phone me-2 text-success"></i><strong>+57 310 359
+                                            7580</strong> (Principal)</li>
+                                    <li><i class="bi bi-person-fill me-2 text-light"></i><strong>Lina
+                                            Ramírez:</strong> +57 320 795 7920</li>
+                                    <li><i class="bi bi-person-fill me-2 text-light"></i><strong>Andrés
+                                            Franco:</strong> +57 314 306 7083</li>
+                                    <li><i class="bi bi-person-fill me-2 text-light"></i><strong>Melissa
+                                            Camargo:</strong> +57 321 202 7878</li>
+                                    <li><i class="bi bi-person-fill me-2 text-light"></i><strong>Joan
+                                            Osorio:</strong> +57 311 361 4456</li>
+                                    <li><i class="bi bi-person-fill me-2 text-light"></i><strong>Santiago
+                                            Solano:</strong> +57 310 447 1987</li>
+                                    <li><i class="bi bi-telephone-fill me-2 text-info"></i><strong>CodeHub
+                                            USA:</strong> +1 954 932 5572</li>
+                                </ul>
+                            </div>
+                        </div> <!-- Dónde trabajamos -->
+                        <div class="col-12 col-lg-6">
+                            <div
+                                class="tarjetaPie2 p-3 rounded h-100 shadow-sm animate__animated animate__fadeInUp animate__delay-1s">
+                                <h5 class="tituloSeccion fw-bold"> <i
+                                        class="bi bi-geo-alt-fill me-2 text-warning"></i>Dónde Trabajamos </h5>
+                                <ul class="listaCiudades list-unstyled small">
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Bogotá, Colombia</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Medellín, Colombia</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Ciudad de México, México</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Santiago, Chile</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Guatemala City, Guatemala</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Miami, Estados Unidos</li>
+                                    <li><i class="bi bi-geo-alt me-2 text-danger"></i>Lima, Perú</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- Redes sociales -->
+                    <div class="barraSocial2 text-center text-md-end px-3 mt-4"> <a href="https://wa.me/573206542147"
+                            class="btnRedSocial2 animate__animated animate__bounceIn" target="_blank"><i
+                                class="bi bi-whatsapp"></i></a> <a
+                            href="https://www.facebook.com/share/1ZH5iJ5Gaf/?mibextid=wwXIfr" target="_blank"
+                            class="btnRedSocial2 animate__animated animate__bounceIn animate__delay-1s"><i
+                                class="bi bi-facebook"></i></a> <a href="https://github.com/SophyaCas" target="_blank"
+                            class="btnRedSocial2 animate__animated animate__bounceIn animate__delay-2s"><i
+                                class="bi bi-github"></i></a> <a
+                            href="https://www.instagram.com/sophya_cq888?igsh=MW01Y3JxaTBhOTgxYg%3D%3D&utm_source=qr"
+                            target="_blank"
+                            class="btnRedSocial2 animate__animated animate__bounceIn animate__delay-3s"><i
+                                class="bi bi-instagram"></i></a> <a
+                            href="https://www.tiktok.com/@sophya_8812?_t=ZS-8zgJjYcGWXp&_r=1" target="_blank"
+                            class="btnRedSocial2 animate__animated animate__bounceIn animate__delay-4s"><i
+                                class="bi bi-tiktok"></i></a> <a href="https://www.linkedin.com/login/es"
+                            target="_blank"
+                            class="btnRedSocial2 animate__animated animate__bounceIn animate__delay-5s"><i
+                                class="bi bi-linkedin"></i></a> </div>
+                </div>
+            </div>
+        </div> <!-- Línea divisoria -->
+        <hr class="lineaDivisoria border-light my-4">
+        <div class="textoLegal text-center small"> ©2025 Todos los derechos reservados.
+            <strong>CodeHub.run</strong> - Transformamos ideas en soluciones tecnológicas
+        </div>
+        </div>
+    </footer>
+
+    <!--archivo JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="./JS/estilos.js"></script>
+
+
+
+</body>
+
+</html>

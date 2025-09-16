@@ -288,136 +288,6 @@ img {
     transform: scale(1.05);
 }
 
-.piePagina2 {
-    background: linear-gradient(90deg, #1b2432 0%, #111 100%);
-    color: #f1f1f1;
-    font-family: "Segoe UI", sans-serif;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-}
-
-.logoEmpresa {
-    max-width: 450px;
-    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.5));
-    transition: transform 0.4s ease-in-out;
-    display: block;
-    margin-left: 0;
-}
-
-.logoEmpresa:hover {
-    transform: scale(1.1) rotate(-2deg);
-    filter: drop-shadow(0 0 12px rgba(0, 162, 255, 0.7));
-}
-
-/* Spinners debajo del logo */
-.decoracionLogo {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: -10px;
-}
-
-.tarjetaPie2 {
-    background-color: rgba(33, 37, 41, 0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tarjetaPie2:hover {
-    transform: translateY(-5px) !important;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4) !important;
-}
-
-.tituloSeccion {
-    font-size: 1.2rem;
-    color: #00bfff;
-    margin-bottom: 0.8rem;
-    position: relative;
-}
-
-.tituloSeccion::after {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: #00bfff;
-    margin-top: 4px;
-    border-radius: 10px;
-}
-
-.listaContactos li,
-.listaCiudades li {
-    padding: 5px 0;
-    transition: all 0.3s ease;
-}
-
-.listaContactos li:hover,
-.listaCiudades li:hover {
-    color: #00bfff;
-    transform: translateX(6px);
-    cursor: pointer;
-}
-
-.barraSocialAside.oculto {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
-}
-
-.piePagina2 .barraSocial2 {
-    position: static;
-    display: flex;
-    justify-content: flex-end;
-    gap: 0.5rem;
-}
-
-.piePagina2 .btnRedSocial2 {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    transition: transform 0.3s, background 0.3s;
-}
-
-.piePagina2 .btnRedSocial2:hover {
-    background-color: #0d6efd;
-    transform: scale(1.2);
-}
-
-.btnRedSocial2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    margin-right: 8px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
-.btnRedSocial2:hover {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
-    color: #fff;
-    transform: scale(1.1);
-}
-
-.lineaDivisoria {
-    opacity: 0.3;
-}
-
-.textoLegal {
-    font-size: 1rem;
-    color: #ccc;
-    letter-spacing: 0.5px;
-}
-
 .seccion-video-contacto {
     height: 70vh;
     position: relative;
@@ -509,6 +379,186 @@ img {
 .contacto-form:hover,
 .contacto-mapa:hover {
     box-shadow: 0 15px 40px rgba(255, 255, 255, 0.3);
+}
+
+
+
+.piePagina2 {
+    background: linear-gradient(90deg, #1b2432 0%, #111 100%);
+    color: #f1f1f1;
+    font-family: "Segoe UI", sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.logoEmpresa {
+    max-width: 180px;
+    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.5));
+    transition: transform 0.4s ease-in-out;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.logoEmpresa:hover {
+    transform: scale(1.1) rotate(-2deg);
+    filter: drop-shadow(0 0 12px rgba(0, 162, 255, 0.7));
+}
+
+.decoracionLogo {
+    display: flex;
+    justify-content: center !important;
+    gap: 8px;
+    margin: 0.5rem 0 1.5rem;
+}
+
+.spinner-sm {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.tarjetaPie2 {
+    background-color: rgba(33, 37, 41, 0.6);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    height: 100%;
+}
+
+
+.tarjetaPie2:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+.tituloSeccion {
+    font-size: 1.1rem;
+    color: #00bfff;
+    margin-bottom: 0.8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tituloSeccion::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #00bfff;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.listaContactos,
+.listaCiudades,
+.listaEnlaces {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listaContactos li,
+.listaCiudades li,
+.listaEnlaces li {
+    padding: 6px 0;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.listaContactos li:hover,
+.listaCiudades li:hover {
+    color: #00bfff;
+    transform: translateX(5px);
+}
+
+.listaEnlaces a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.listaEnlaces a:hover {
+    color: #00bfff;
+    transform: translateX(5px);
+}
+
+.barraSocialAside.oculto {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+.piePagina2 .barraSocial2 {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.piePagina2 .btnRedSocial2 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.piePagina2 .btnRedSocial2:hover {
+    background-color: #0d6efd;
+    transform: scale(1.2);
+}
+
+
+.btnRedSocial2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: 0 4px 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btnRedSocial2:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.lineaDivisoria {
+    opacity: 0.3;
+}
+
+.textoLegal {
+    font-size: 1rem;
+    color: #ccc;
+    letter-spacing: 0.5px;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-barFooter {
+    background: linear-gradient(90deg, #0d1b2a, #000000);
+    padding: 8px 0;
+    display: flex;
+    justify-content: center !important;
 }
 
 
@@ -617,19 +667,54 @@ img {
         font-size: 1.25rem;
     }
 
-    .logoEmpresa {
-        max-width: 300px;
-        height: auto;
-        display: flex;
-        margin: 0 auto 15px auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+    .piePagina2 {
+        padding: 3rem 0 1.5rem;
     }
 
-    .decoracionLogo {
-        justify-content: center;
+    .logo-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 
+    .logoEmpresa {
+        max-width: 250px;
+        margin: 0 auto 1rem;
+    }
+
+    .contenedor-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .seccion-enlaces {
+        grid-column: span 2;
+        order: 3;
+        margin-top: 1.5rem;
+    }
+
+    .seccion-comercial {
+        order: 1;
+    }
+
+    .seccion-ubicacion {
+        order: 2;
+    }
+
+    .tarjetaPie2 {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .social-barFooter {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .tituloSeccion::after {
+        margin: 4px auto 0 auto;
     }
 }
 
@@ -678,5 +763,62 @@ img {
     .decoracionLogo {
         margin-top: 0;
         margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .logoEmpresa {
+        max-width: 450px;
+    }
+
+    /* Footer para PC */
+    .piePagina2 {
+        padding: 2.5rem 0 1.5rem;
+    }
+
+    .logo-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .logoEmpresa {
+        max-width: 250px;
+        margin: 0 auto 1rem;
+    }
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .seccion-comercial,
+    .seccion-ubicacion,
+    .seccion-enlaces {
+        flex: 1;
+        margin-top: 0;
+    }
+
+    .seccion-enlaces {
+        grid-column: auto;
+        order: 0;
+    }
+
+    .tarjetaPie2 {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .tituloSeccion::after {
+        margin: 4px 0 0 10px;
+    }
+
+    .social-barFooter {
+        justify-content: center;
+        margin-top: 2rem;
     }
 }

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -22,7 +26,7 @@ header {
 
 
 main {
-    min-height: 100vh;
+    min-height: 625px;
     width: 100%;
     margin: 0;
     padding: 50px 0;
@@ -86,6 +90,8 @@ main h2 {
 .social-bar {
     background: linear-gradient(90deg, #0d1b2a, #000000);
     padding: 8px 0;
+    display: flex;
+    justify-content: end;
 }
 
 .social-bar .btn-social {
@@ -93,7 +99,7 @@ main h2 {
     height: 40px;
     margin: 0 5px;
     border-radius: 50%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: white;
@@ -566,7 +572,7 @@ h2.display-4 {
 }
 
 .btnRedSocial {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -658,11 +664,10 @@ h2.display-4 {
         margin: 0;
     }
 
-    acordeon {
+    .acordeon {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
-        /* espacio entre items */
         align-items: stretch;
         justify-items: center;
     }
@@ -718,7 +723,7 @@ h2.display-4 {
         text-align: center;
     }
 
-    tarjetaPie {
+    .tarjetaPie {
         text-align: left;
     }
 
@@ -873,5 +878,86 @@ h2.display-4 {
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .piePagina .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo-container {
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center !important;
+    }
+
+    #logo-container .logoEmpresa {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #cards-container .col-lg-6 {
+        max-width: 500px;
+        margin-bottom: 1.5rem;
+    }
+
+    #social-container {
+        display: flex;
+        justify-content: center !important;
+        margin-top: 1.5rem;
+    }
+
+    .tarjetaPie {
+        text-align: center;
+    }
+
+    .tituloSeccion::after {
+        margin: 4px auto 0 auto;
+    }
+
+    .decoracionLogo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .mujer-img {
+        max-width: 98%;
+    }
+
+    main h1 {
+        font-size: 3rem;
+    }
+
+    main h2 {
+        font-size: 1.25rem;
+    }
+
+    .logoEmpresa {
+        max-width: 300px;
+        height: auto;
+        display: flex;
+        margin: 0 auto 15px auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .decoracionLogo {
+        justify-content: center;
+
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -581,11 +581,10 @@
             </div>
         </article>
 
-
         <footer class="piePagina text-light pt-5 pb-3">
             <div class="contenedor container">
-                <div class="row align-items-start"> <!-- Columna Izquierda -->
-                    <div class="col-12 col-md-4 text-center text-md-start mb-4 mb-md-0"> <!-- Logo con animación -->
+                <div class="row align-items-start">
+                    <div id="logo-container" class="col-12 col-md-4 text-center text-md-start mb-4 mb-md-0">
                         <img src="./IMG/logo.png" alt="Logo CodeHub"
                             class="logoEmpresa img-fluid mb-3 animate__animated animate__pulse animate__infinite">
                         <!-- Spinners decorativos -->
@@ -596,13 +595,15 @@
                             <div class="spinner-grow text-warning spinner-sm"></div>
                             <div class="spinner-grow text-info spinner-sm"></div>
                         </div>
-                    </div> <!-- Columna Derecha -->
+                    </div>
+
                     <div class="col-12 col-md-8">
-                        <div class="row g-4"> <!-- Área Comercial -->
+                        <div id="cards-container" class="row g-4">
                             <div class="col-12 col-lg-6">
                                 <div class="tarjetaPie p-3 rounded h-100 shadow-sm animate__animated animate__fadeInUp">
-                                    <h5 class="tituloSeccion fw-bold"> <i
-                                            class="bi bi-telephone-fill me-2 text-primary"></i>Área Comercial </h5>
+                                    <h5 class="tituloSeccion fw-bold">
+                                        <i class="bi bi-telephone-fill me-2 text-primary"></i>Área Comercial
+                                    </h5>
                                     <ul class="listaContactos list-unstyled small">
                                         <li><i class="bi bi-phone me-2 text-success"></i><strong>+57 310 359
                                                 7580</strong> (Principal)</li>
@@ -620,12 +621,15 @@
                                                 USA:</strong> +1 954 932 5572</li>
                                     </ul>
                                 </div>
-                            </div> <!-- Dónde trabajamos -->
+                            </div>
+
+                            <!-- Dónde trabajamos -->
                             <div class="col-12 col-lg-6">
                                 <div
                                     class="tarjetaPie p-3 rounded h-100 shadow-sm animate__animated animate__fadeInUp animate__delay-1s">
-                                    <h5 class="tituloSeccion fw-bold"> <i
-                                            class="bi bi-geo-alt-fill me-2 text-warning"></i>Dónde Trabajamos </h5>
+                                    <h5 class="tituloSeccion fw-bold">
+                                        <i class="bi bi-geo-alt-fill me-2 text-warning"></i>Dónde Trabajamos
+                                    </h5>
                                     <ul class="listaCiudades list-unstyled small">
                                         <li><i class="bi bi-geo-alt me-2 text-danger"></i>Bogotá, Colombia</li>
                                         <li><i class="bi bi-geo-alt me-2 text-danger"></i>Medellín, Colombia</li>
@@ -637,30 +641,42 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div> <!-- Redes sociales -->
-                        <div class="barraSocial text-center text-md-end px-3 mt-4"> <a href="https://wa.me/573206542147"
-                                class="btnRedSocial animate__animated animate__bounceIn" target="_blank"><i
-                                    class="bi bi-whatsapp"></i></a> <a
-                                href="https://www.facebook.com/share/1ZH5iJ5Gaf/?mibextid=wwXIfr" target="_blank"
-                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-1s"><i
-                                    class="bi bi-facebook"></i></a> <a href="https://github.com/SophyaCas"
+                        </div>
+
+                        <!-- Redes sociales -->
+                        <div id="social-container" class="social-bar text-center text-md-end px-3 mt-4">
+                            <a href="https://wa.me/573206542147"
+                                class="btnRedSocial animate__animated animate__bounceIn" target="_blank">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                            <a href="https://www.facebook.com/share/1ZH5iJ5Gaf/?mibextid=wwXIfr" target="_blank"
+                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-1s">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://github.com/SophyaCas" target="_blank"
+                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-2s">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/sophya_cq888?igsh=MW01Y3JxaTBhOTgxYg%3D%3D&utm_source=qr"
                                 target="_blank"
-                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-2s"><i
-                                    class="bi bi-github"></i></a> <a
-                                href="https://www.instagram.com/sophya_cq888?igsh=MW01Y3JxaTBhOTgxYg%3D%3D&utm_source=qr"
-                                target="_blank"
-                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-3s"><i
-                                    class="bi bi-instagram"></i></a> <a
-                                href="https://www.tiktok.com/@sophya_8812?_t=ZS-8zgJjYcGWXp&_r=1" target="_blank"
-                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-4s"><i
-                                    class="bi bi-tiktok"></i></a> <a href="https://www.linkedin.com/login/es"
-                                target="_blank"
-                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-5s"><i
-                                    class="bi bi-linkedin"></i></a> </div>
+                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-3s">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@sophya_8812?_t=ZS-8zgJjYcGWXp&_r=1" target="_blank"
+                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-4s">
+                                <i class="bi bi-tiktok"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/login/es" target="_blank"
+                                class="btnRedSocial animate__animated animate__bounceIn animate__delay-5s">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
                     </div>
-                </div> <!-- Línea divisoria -->
-                <hr class="lineaDivisoria border-light my-4"> <!-- Derechos reservados -->
-                <div class="textoLegal text-center small"> ©2025 Todos los derechos reservados.
+                </div>
+
+                <hr class="lineaDivisoria border-light my-4">
+                <div class="textoLegal text-center small">
+                    ©2025 Todos los derechos reservados.
                     <strong>CodeHub.run</strong> - Transformamos ideas en soluciones tecnológicas
                 </div>
             </div>

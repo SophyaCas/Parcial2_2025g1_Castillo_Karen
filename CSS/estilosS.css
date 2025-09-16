@@ -32,6 +32,9 @@ header {
     visibility: visible;
 }
 
+img {
+    width: 100%;
+}
 
 .botonRed {
     display: flex;
@@ -370,7 +373,7 @@ header {
 .piePagina2 .btnRedSocial2 {
     width: 40px;
     height: 40px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -386,7 +389,7 @@ header {
 }
 
 .btnRedSocial2 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -550,5 +553,130 @@ header {
 @media (max-height: 600px) {
     .barraSocialAside {
         display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #logo-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #logo-container .logoEmpresa {
+        margin: 0 auto;
+    }
+
+    #cards-container .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cards-container .col-lg-6 {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #social-container {
+        justify-content: center !important;
+        margin-top: 1.5rem;
+    }
+
+    .logoEmpresa {
+        max-width: 280px !important;
+    }
+
+    .tarjetaPie {
+        text-align: center;
+    }
+
+    .tituloSeccion::after {
+        margin: 4px auto 0 auto;
+    }
+
+    .decoracionLogo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .mujer-img {
+        max-width: 98%;
+    }
+
+    main h1 {
+        font-size: 3rem;
+    }
+
+    main h2 {
+        font-size: 1.25rem;
+    }
+
+    .logoEmpresa {
+        max-width: 300px;
+        height: auto;
+        display: flex;
+        margin: 0 auto 15px auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .decoracionLogo {
+        justify-content: center;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #logo-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #logo-container .logoEmpresa {
+        margin: 0 auto;
+    }
+
+    #cards-container .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cards-container .col-lg-6 {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #social-container {
+        justify-content: center !important;
+        margin-top: 1.5rem;
+    }
+
+    .logoEmpresa {
+        max-width: 280px !important;
+    }
+
+    .tarjetaPie {
+        text-align: center;
+    }
+
+    .tituloSeccion::after {
+        margin: 4px auto 0 auto;
+    }
+
+    .decoracionLogo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
     }
 }
